@@ -1,0 +1,34 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assests/joanna-kosinska-7ACuHoezUYk-unsplash.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.wrapper__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.login__form{
+    backdrop-filter: blur(10px);
+    min-width: 500px;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+}
+.login__heading{
+    font-size: 35px;
+    color: white;
+}
+.label{
+    color: white;
+}

@@ -1,0 +1,36 @@
+/* DebtCard.css */
+
+/* Mobil qurilma uchun o'lchamni o'zgartirish */
+@media (max-width: 768px) {
+  .debt-card {
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #ddd; /* Ramka qo'shish */
+    padding: 10px; /* Ichki padding */
+    margin: 10px 0; /* Yuqori va pastdagi bosqichlar orasidagi masofa */
+  }
+
+  .debt-content {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  .debt-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .debt-action button {
+    margin-left: 0;
+    margin-right: 10px;
+    background-color: yellow;
+  }
+}
+
+/* Hover animatsiyasini o'zgartirish */
+.debt-card:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.02); /* Yengilash */
+}
